@@ -8,8 +8,11 @@ app.listen(port, ip, function() {
     console.log("Server running on: " + ip + ":" + port);
 });
 
-app.get("/api", (req, res, next) => {
-    res.json(["firstName: SampleName",
-                "lastName: LastName",
-                "NickName: NickName"]);
+app.use(function (req, res, next) {
+    res.header('Content-Type', 'application/json');
+    next();
+});
+
+app.get("/api", (req, res) => {
+    res.json({firstName:"SampleName",lastName:"LastName",nickName:"NickName"});
 });
