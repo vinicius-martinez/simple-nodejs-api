@@ -1,0 +1,22 @@
+{
+  "name": "demo-integration",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Rest API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-martinez/simple-nodejs-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-martinez/simple-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/vinicius-martinez/simple-nodejs-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
