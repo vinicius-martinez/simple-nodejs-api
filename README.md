@@ -11,5 +11,5 @@ node server.js
 In order to deploy this **API** on *Openshift* execute the following:
 
 ```
-oc new-app openshift/nodejs-010-centos7~https://github.com/vinicius-martinez/simple-nodejs-api.git --context-dir=api
+oc new-app https://github.com/vinicius-martinez/simple-nodejs-api.git --context-dir=api
 ```
