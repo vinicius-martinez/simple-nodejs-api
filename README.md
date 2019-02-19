@@ -17,6 +17,7 @@ For testing purposes, just hit a simple **HTTP GET** on */api* context. Example:
 ```
 cd simple-nodejs-api/api
 node server.js
+
 curl localhost:8080/api
 {"firstName":"SampleName","lastName":"LastName","nickName":"NickName"}
 ```
